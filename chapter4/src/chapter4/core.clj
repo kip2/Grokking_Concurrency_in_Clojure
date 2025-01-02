@@ -1,7 +1,8 @@
 (ns chapter4.core
-  (:gen-class))
+  (:gen-class)
+  (:require [chapter4.multithreading :as mult]))
 
-(defn start-parent [child-num]
-  (println "Parent : I am parent process")
-  (println "Parent : Parent's PID: " ; add getpid()
-           ))
+(mult/-main)
+
+
+
